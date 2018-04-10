@@ -1,0 +1,21 @@
+{
+    "name": "ddroche/yii2-jasper-actions",
+    "description": "Jasper actions to use in yii2 applications",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," jasper"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dany Daniel Roche",
+            "email": "ddanielroche@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ddroche\\jasperactions\\": ""
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<?php
+
+namespace ddroche\jasperactions;
+
+/**
+ * This is just an example.
+ */
+class AutoloadExample extends \yii\base\Widget
+{
+    public function run()
+    {
+        return "Hello!";
+    }
+}

@@ -40,7 +40,7 @@ class JasperAction extends Action
 
         $jasper->process(
             Yii::getAlias($this->resourceDirectory) . "/$this->report",
-            $this->parameters,
+            $this->parameters instanceof \Closure ? call_user_func($this->parameters) : $this->parameters,
             $format,
             $output
         )->execute();
